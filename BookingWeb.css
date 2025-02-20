@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@100..900&display=swap');
+
+/* Full-screen background */
+.hero {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 736px;
+    background-image: url('image8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar {
+    width: 100%;
+    padding: 20px 50px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+}
+
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Navbar links */
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Card Styling */
+div .main1 {
+    position: relative;
+    top: 400px;
+    left: 450px;
+    border-radius: 35px 35px 0 0;
+    padding: 15px;
+    margin: 15px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h1 {
+    color: #008EC4;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+}
+
+.main {
+    font-size: 21px;
+    position: relative;
+    left: 40px;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+}
+
+/* Search Box */
+.disc {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid rgb(208, 205, 205);
+    border-radius: 50px;
+    padding: 0;
+    width: 700px;
+    align-items: center;
+}
+
+/* Ensuring No Extra Space */
+.para {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    line-height: 1 !important;
+}
+
+/* Ensure Parent Elements Don't Add Extra Space */
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Icon Styling */
+i {
+    font-size: larger;
+    margin-right: 15px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+/* Search Icon */
+.search-icon i {
+    margin-top: 10px;
+    background-color: #008EC4;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+.container {
+
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight:300;
+    position: relative;
+    top: 100px;  
+    text-align: center;
+}
+
+.features {
+    position: absolute;
+    top: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    
+}
+
+.feature-box {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    
+   
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: #e0f5ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.icon i{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.feature-box h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: "Poppins", serif;
+}
+
+.feature-box p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+    font-family: "Poppins", serif;
+}
+
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-box {
+        width: 80%;
+    }
+}
+
+.explore{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    top: 350px;
+    color: white;
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+.explore h1{
+    text-align: center;
+    margin: 30px;
+    padding: 25px;
+}
+
+.explore .p1{
+    height: 250px;
+    width: 400px;
+    margin-left: 670px;
+    font-family: "Poppins", serif;
+
+}
+
+.btn{
+    position: relative;
+    bottom: 120px;
+}
+
+.small-boxex .box1{
+    background-image: url("small1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 277px;
+    width: 184px;
+    position: relative;
+    bottom: 90px;
+    left: 500px;
+    
+}
+
+.small-boxex .box2{
+    background-image: url("samll2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 277px;
+    width: 184px;
+    position: relative;
+    bottom: 365px;
+    left: 750px;
+}
+
+.small-boxex .box3{
+    background-image: url("small3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 277px;
+    width: 184px;
+    position: relative;
+    bottom: 640px;
+    left: 990px;
+}
+
+.small-boxex :hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+.cards{
+display: flex;
+justify-content: space-evenly;
+margin-top: 400px;
+width: 1000px;
+align-items: center;
+margin-left: 350px;
+font-family: "Poppins", serif;
+
+
+}
+
+.feature{
+    position: relative;
+    top: 370px;
+    color: black;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+}
+
+.card-body a{
+    margin-left: 50px;
+    border-radius: 30px;
+}
+
+.card-body a i{
+    margin: 10px;
+}
+
+.card-body .card-title i{
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.sub-div{
+    height: 250px;
+    width: 900px;
+    background-color: #e0dfdf;
+    margin-top: 70px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    background-image: url("login.png");
+    background-repeat: no-repeat;
+    
+}
+.subscribe .sub-div .text{
+    margin-left: 400px;
+    position: relative;
+    top: 50px;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+.subscribe .sub-div .label{
+height: 50px;
+width: 400px;
+position: relative;
+    top: 70px;
+    left: 450px;
+    font-family: "Poppins", serif;
+    padding-left: 20px;
+    border-radius: 40px;
+    border: none;
+}
+
+h2{
+    margin-bottom: 100px;
+}
+
+.footer-section{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 430px;
+    padding-top: 70px;
+}
+
+footer .madewith{
+    text-align: center;
+   position: relative;
+   bottom: 80px;
+   color: white;
+}
